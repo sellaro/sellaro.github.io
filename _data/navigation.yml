@@ -1,7 +1,7 @@
 - name: Home
   link: /
-- name: Blog
-  link: /blog.html
+- name: Notes
+  link: /notes
 - name: Getting Started
   link: /getting-started
 - name: Search
