@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 This is a minimalist approach to a website. It’s clean. It’s uncluttered. It’s straight to the point.
