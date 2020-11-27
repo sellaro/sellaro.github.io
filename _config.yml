@@ -45,8 +45,8 @@ google_analytics: #UA-43339302-11
 
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
 # Used for Sitemap.xml and your RSS feed
-url: http://sellaro.github.io
-enforce_ssl: https://sellaro.github.io
+url: https://sellaro.ntlify.app
+enforce_ssl: https://sellaro.netlify.app
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -82,12 +82,17 @@ plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
 include: ['_pages']
 
-paginate: 6
-paginate_path: "/notes/page:num/"
+# Pagination
+pagination:
+  enabled: true
+  per_page: 10
+
+#paginate: 6
+#paginate_path: "/notes/page:num/"
 
 # Exclude these files from your production _site
 exclude:
