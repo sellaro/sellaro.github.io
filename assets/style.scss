@@ -463,6 +463,13 @@ body:after {
   line-height: 1.2;
 }
 
+.page blockquote {
+  margin: 0;
+  background: #eee;
+  padding: 1em;
+  border-radius: 1em;
+}
+
 .author_title{
   text-align: center;
   color: #939aa1;
