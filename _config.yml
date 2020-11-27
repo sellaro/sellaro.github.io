@@ -82,12 +82,17 @@ plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
 include: ['_pages']
 
-paginate: 6
-paginate_path: "/notes/page:num/"
+# Pagination
+pagination:
+  enabled: true
+  per_page: 10
+
+#paginate: 6
+#paginate_path: "/notes/page:num/"
 
 # Exclude these files from your production _site
 exclude:
