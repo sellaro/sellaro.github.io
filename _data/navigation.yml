@@ -1,10 +1,12 @@
 - name: Home
   link: /
 - name: Blog
-  link: /blog
+  link: /blog.html
 - name: Getting Started
   link: /getting-started
 - name: Search
   link: /search
+- name: Now
+  link: /now
 - name: About
   link: /about
