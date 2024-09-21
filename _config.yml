@@ -101,4 +101,4 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
+  - cache/
